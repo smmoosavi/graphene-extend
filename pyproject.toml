@@ -1,8 +1,18 @@
 [tool.poetry]
 name = "graphene-extend"
 version = "0.1.0"
-description = ""
+description = "Extend graphen object types from other modules"
 authors = ["Seyyed Morteza Moosavi <se.mo.moosavi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/smmoosavi/graphene-extend"
+repository = "https://github.com/smmoosavi/graphene-extend"
+keywords = ["graphql", "graphene", "SOLID"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
